@@ -1,1 +1,2 @@
-alert("hello world");
+var frontEnd =['HTML', 'CSS', 'Javascript'];
+var frontEndLangages = frontEnd;
