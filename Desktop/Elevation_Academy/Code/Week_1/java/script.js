@@ -1,13 +1,11 @@
-var myNation = prompt("what is your citizenship?")
-if (myNation === "Israeli") {
-	alert ("You can come in")
+var age = prompt("what is your age?")
+var gender = prompt("are you male or female?")
+if (age >= 18 && gender === "female") {
+	alert ("You drink for free")
 }
-else if (myNation === "Iranian") {
-	alert ("HELL NA BRAH")
+else if (age >= 18 ) {
+	alert ("can drink but you have to pay")
 }
- else if	( myNation === "Not Sure" ) {
-    alert ("Well Thats A Different Story")
-}
-else {
-	alert("Please step to the side")
+ else {
+    alert ("No matter who you are you can't drink here.")
 }
