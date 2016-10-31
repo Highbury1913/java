@@ -1,17 +1,7 @@
-var home = (3);
-var away = (4);
-var win = ("yaaaaaaaaay")
-var lose =("noooooooooo")
-var draw =("well its not a loss")
-if (home > away) {
-	alert (win);
-
-} else if(home === away){
-	alert (draw)
+var myAge = prompt("how old are you?")
+if (myAge >= 18) {
+	alert ("You can have a drink")
 }
 else {
-	alert (lose)
+	alert ("You're underage brah")
 }
-
-
-
