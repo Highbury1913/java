@@ -1,7 +1,13 @@
-var myAge = prompt("how old are you?")
-if (myAge >= 18) {
-	alert ("You can have a drink")
+var myNation = prompt("what is your citizenship?")
+if (myNation === "Israeli") {
+	alert ("You can come in")
+}
+else if (myNation === "Iranian") {
+	alert ("HELL NA BRAH")
+}
+ else if	( myNation === "Not Sure" ) {
+    alert ("Well Thats A Different Story")
 }
 else {
-	alert ("You're underage brah")
+	alert("Please step to the side")
 }
