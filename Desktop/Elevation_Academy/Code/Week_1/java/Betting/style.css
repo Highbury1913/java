@@ -1,0 +1,18 @@
+body {
+	background-color: #000000;
+
+}
+h1 {
+	background-color: goldenrod;
+	color: navy;
+	padding: 30px;
+}
+p {
+	padding: 40px;
+	border: solid hotpink;
+	font-family: cursive;
+	background-color: maroon;
+}
+.safe{
+	color:hsl(15, 40%, 50%);
+}
